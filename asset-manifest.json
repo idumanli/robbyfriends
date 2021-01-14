@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/robbyfriends/static/css/main.28a379c5.chunk.css",
+    "main.js": "/robbyfriends/static/js/main.ad9a5409.chunk.js",
+    "main.js.map": "/robbyfriends/static/js/main.ad9a5409.chunk.js.map",
+    "runtime-main.js": "/robbyfriends/static/js/runtime-main.e0621d21.js",
+    "runtime-main.js.map": "/robbyfriends/static/js/runtime-main.e0621d21.js.map",
+    "static/css/2.31461e4f.chunk.css": "/robbyfriends/static/css/2.31461e4f.chunk.css",
+    "static/js/2.92953a45.chunk.js": "/robbyfriends/static/js/2.92953a45.chunk.js",
+    "static/js/2.92953a45.chunk.js.map": "/robbyfriends/static/js/2.92953a45.chunk.js.map",
+    "static/js/3.1ec00f56.chunk.js": "/robbyfriends/static/js/3.1ec00f56.chunk.js",
+    "static/js/3.1ec00f56.chunk.js.map": "/robbyfriends/static/js/3.1ec00f56.chunk.js.map",
+    "index.html": "/robbyfriends/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/robbyfriends/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.28a379c5.chunk.css.map": "/robbyfriends/static/css/main.28a379c5.chunk.css.map",
+    "static/js/2.92953a45.chunk.js.LICENSE.txt": "/robbyfriends/static/js/2.92953a45.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/robbyfriends/static/media/El Tito Adolfo.c9430fd7.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0621d21.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.92953a45.chunk.js",
+    "static/css/main.28a379c5.chunk.css",
+    "static/js/main.ad9a5409.chunk.js"
+  ]
+}
