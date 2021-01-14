@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CardList from './CardList';
-import {robots} from './robots';
 import SearcBox from './SearcBox';
 import Scroll from './Scroll';
 import './App.css';
@@ -10,11 +9,12 @@ class App extends Component {
 	constructor(props) {
 		super(props)
 		this.state = {
+
 			robots: [],
 			searchfield: ''
-	}
-}
-      componentDidMount() {
+	   }
+	 }
+       componentDidMount() {
       	fetch('http://jsonplaceholder.typicode.com/users')
       	.then(response => response.json())
       	.then(users=> this.setState({robots:users}));
@@ -28,15 +28,16 @@ class App extends Component {
 	 	}
 
 	render() {
-		const {robots, searchfield} = this.state
+		const { robots, searchfield } = this.state
 		const filteredRobots = robots.filter(robot =>{
 	 			return robot.name.toLowerCase().includes(searchfield.toLowerCase());
 
 	 		})
 
-		   
-		   	   return (
+		     return !robots.length ?
+		     <h1>Lodding</h1> :
 
+                (
 			      <div className='tc'>
 			      	<h1 style={{fontFamily:'El Tito Adolfo', fontSize:100,}}>RoBofriends</h1>
 			      	<SearcBox  searchChange={this.onSearchChange} />
