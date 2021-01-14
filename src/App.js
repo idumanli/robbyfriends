@@ -34,7 +34,7 @@ class App extends Component {
 
 	 		})
 
-		   if(!robots.length) {
+		   if(robots.length === 0) {
 		   	    return <h1>Lodding</h1>
 		   } else {
 		   	   return (
